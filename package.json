@@ -1,0 +1,26 @@
+{
+  "name": "fn-exec-stats",
+  "version": "1.0.0",
+  "description": "Get execution stats for javascript functions",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fedebertolini/fn-exec-stats.git"
+  },
+  "author": "Federico Bertolini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fedebertolini/fn-exec-stats/issues"
+  },
+  "homepage": "https://github.com/fedebertolini/fn-exec-stats#readme",
+  "devDependencies": {
+    "jest": "~23.4.2",
+    "jsdom": "~11.11.0"
+  },
+  "dependencies": {
+    "lodash": "~4.17.10"
+  }
+}
