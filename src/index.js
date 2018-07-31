@@ -18,12 +18,12 @@ module.exports = (fn, config = {}) => {
 
     const wrapped = (...args) => {
         if (disabled) {
-            return fn(args);
+            return fn(...args);
         }
 
         const start = Date.now();
 
-        const result = fn(args);
+        const result = fn(...args);
 
         const end = Date.now();
         executionTimes.push(end - start);
